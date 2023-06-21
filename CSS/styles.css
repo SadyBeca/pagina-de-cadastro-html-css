@@ -14,6 +14,8 @@
    --font-size1: 1rem;
    --font-size2: 3rem;
    --font-size3: 1.25rem;
+   --font-size4: 3.75rem;
+   --font-size5: 1.125rem;
 }
 
 .body {
@@ -85,6 +87,39 @@
     font-family: var(--font-family);
     color: var(--primary-color);
     font-size: var(--font-size3);
-    padding: 0 19%;
+    padding: 0 15%;
+}
 
+.metricas {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    gap: 32px;
+}
+
+.metricas__container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+
+.metricas__titulo {
+    font-family: var(--font-family);
+    color: var(--secondary-color);
+    font-size: var(--font-size4);
+}
+
+.metricas__subtitulo {
+    font-family: var(--font-family);
+    color: var(--terciary-color);
+    font-weight: var(--font-weight1);
+    font-size: var(--font-size5);
+}
+
+.metricas__paragrafo {
+   font-family: var(--font-family);
+   font-size: var(--font-size1);
+   color: var(--primary-color);
+   text-align: justify;
 }
