@@ -3,7 +3,8 @@
 :root {
    --background-color: #FFFFFF;
    --primary-color: #667085;
-   --cadastrar-color: #8E2424;
+   --secondary-color: #8E2424;
+   --terciary-color: #101828;
 
    --font-family: 'Inter', sans-serif;
 
@@ -11,6 +12,8 @@
    --font-weight2: 600;
 
    --font-size1: 1rem;
+   --font-size2: 3rem;
+   --font-size3: 1.25rem;
 }
 
 .body {
@@ -48,8 +51,40 @@
 }
 
 .cabecalho__cadastro__cadastrar {
-    background-color: var(--cadastrar-color);
+    background-color: var(--secondary-color);
     color: var(--background-color);
     border-radius: 8px;
     padding: 10px;
+}
+
+.coluna__secao__1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 8% 8%;
+}
+
+.coluna__secao__1__subtitulo {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight2);
+    font-size: var(--font-size1);
+    color: var(--secondary-color);
+}
+
+.coluna__secao__1__titulo {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight2);
+    font-size: var(--font-size2);
+    color: var(--terciary-color);
+}
+
+.coluna__secao__1__paragrafo {
+    text-align: center;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    font-size: var(--font-size3);
+    padding: 0 19%;
+
 }
