@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+   --background-color: #FFFFFF;
+   --primary-color: #667085;
+   --cadastrar-color: #8E2424;
+
+   --font-family: 'Inter', sans-serif;
+
+   --font-weight1: 500;
+   --font-weight2: 600;
+
+   --font-size1: 1rem;
+}
+
+.body {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.cabecalho {
+    display: flex;
+    color: var(--primary-color);
+    font-weight: var(--font-weight1);
+    font-family: var(--font-family);
+    justify-content: space-between;
+    padding: 1% 8%;
+    font-size: var(--font-size1);
+    align-items: center;
+
+}
+
+.cabecalho__paginas {
+    order: 2;
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho__cadastro {
+    order: 3;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__logo {
+    order: 1;
+}
+
+.cabecalho__cadastro__cadastrar {
+    background-color: var(--cadastrar-color);
+    color: var(--background-color);
+    border-radius: 8px;
+    padding: 10px;
+}
