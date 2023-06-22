@@ -99,7 +99,7 @@
     justify-content: space-between;
     padding: 0 8% 5%;
     gap: 32px;
-    border: solid red;
+    /* border: solid red; */
 }
 
 .metricas__container {
