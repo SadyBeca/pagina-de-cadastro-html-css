@@ -178,7 +178,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 5% 20%;
+    padding: 6% 20% 10%;
 }
 
 .vagas__abertas__titulo {
@@ -212,4 +212,58 @@
     font-size: var(--font-size3);
     color: var(--terciary-color);
     font-weight: var(--font-weight1);
+}
+
+.colaboradores {
+    font-family: var(--font-family);
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.colaboradores {
+    padding: 6% 0 20%;
+    /* border: solid red; */
+}
+
+.colaboradores__titulo {
+    font-size: var(--font-size6);
+    color: var(--secondary-color);
+    font-weight: var(--font-weight2);
+    text-align: center;
+    margin: 0 0 4%;
+    /* border: solid red; */
+}
+
+.colaboradores__subtitulo {
+    font-size: var(--font-size7);
+    color: var(--terciary-color);
+    font-weight: var(--font-weight1);
+    text-align: center;
+    margin: 0 0 8%;
+    /* border: solid red; */
+}
+
+.colaboradores__imagem{
+    width: 5%;
+    display: flex;
+    align-self: center;
+    margin: 0 0 4%;
+}
+
+.colaboradores__nome {
+    font-size: var(--font-size1);
+    font-weight: var(--font-weight1);
+    color: var(--terciary-color);
+    text-align: center;
+    margin: 0 0 1%;
+    /* border: solid red; */
+}
+
+.colaboradores__funcao {
+    font-size: var(--font-size6);
+    color: var(--primary-color);
+    text-align: center;
+    margin: 0;
+    /* border: solid red; */
 }
