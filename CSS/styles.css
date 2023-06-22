@@ -179,13 +179,13 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 5% 20%;
-    gap: 2rem;
 }
 
 .vagas__abertas__titulo {
     font-size: var(--font-size3);
     color: var(--terciary-color);
     font-weight: var(--font-weight1); 
+    margin: 0 0 6%;
 }
 
 .vagas__abertas__descricao{
@@ -204,4 +204,12 @@
     font-weight: var(--font-weight1);
     display: flex;
     gap: 1.5rem;
+}
+
+.vagas__abertas__titulo__software {
+    padding: 6% 0 6%;
+    /* border: solid red; */
+    font-size: var(--font-size3);
+    color: var(--terciary-color);
+    font-weight: var(--font-weight1);
 }
