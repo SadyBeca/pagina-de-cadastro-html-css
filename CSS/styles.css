@@ -65,7 +65,8 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-    padding: 8% 8%;
+    padding: 5% 8%;
+    /* border: solid red; */
 }
 
 .coluna__secao__1__subtitulo {
@@ -73,6 +74,7 @@
     font-weight: var(--font-weight2);
     font-size: var(--font-size1);
     color: var(--secondary-color);
+    /* border: solid red; */
 }
 
 .coluna__secao__1__titulo {
@@ -80,6 +82,7 @@
     font-weight: var(--font-weight2);
     font-size: var(--font-size2);
     color: var(--terciary-color);
+    /* border: solid red; */
 }
 
 .coluna__secao__1__paragrafo {
@@ -87,27 +90,29 @@
     font-family: var(--font-family);
     color: var(--primary-color);
     font-size: var(--font-size3);
+    /* border: solid red; */
     padding: 0 8%;
 }
 
 .metricas {
     display: flex;
     justify-content: space-between;
-    padding: 8%;
+    padding: 0 8% 5%;
     gap: 32px;
+    border: solid red;
 }
 
 .metricas__container {
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    
 }
 
 .metricas__titulo {
     font-family: var(--font-family);
     color: var(--secondary-color);
     font-size: var(--font-size4);
+    /* border: solid red; */
+    width: 17.5rem;
 }
 
 .metricas__subtitulo {
@@ -115,6 +120,9 @@
     color: var(--terciary-color);
     font-weight: var(--font-weight1);
     font-size: var(--font-size5);
+    /* border: solid red; */
+    width: 17.5rem;
+    margin: 0.75rem 0 0;
 }
 
 .metricas__paragrafo {
@@ -122,4 +130,7 @@
    font-size: var(--font-size1);
    color: var(--primary-color);
    text-align: justify;
+   /* border: solid red; */
+   width: 17.5rem;
+   margin: 0.5rem 0 0;
 }
