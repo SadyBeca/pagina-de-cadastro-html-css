@@ -87,13 +87,13 @@
     font-family: var(--font-family);
     color: var(--primary-color);
     font-size: var(--font-size3);
-    padding: 0 15%;
+    padding: 0 8%;
 }
 
 .metricas {
     display: flex;
     justify-content: space-between;
-    padding: 5%;
+    padding: 8%;
     gap: 32px;
 }
 
