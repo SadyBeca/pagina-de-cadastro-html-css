@@ -6,6 +6,8 @@
    --secondary-color: #8E2424;
    --terciary-color: #101828;
    --secondary-color-5: hsla(0, 60%, 35%, 0.05);
+   --color-email: #D0D5DD;
+   --color-copyright: #98A2B3;
 
    --font-family: 'Inter', sans-serif;
 
@@ -266,4 +268,59 @@
     text-align: center;
     margin: 0;
     /* border: solid red; */
+}
+
+.rodape {
+    font-family: var(--font-family);
+    padding: 2% 0 12%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape__titulo {
+    font-size: var(--font-size7);
+    font-weight: var(--font-weight2);
+    color: var(--terciary-color);
+    text-align: center;
+    margin: 0;
+}
+
+.rodape__subtitulo {
+   font-size: var(--font-size3);
+   color: var(--primary-color);
+   text-align: center;
+   margin: 3% 0 0 0;
+}
+
+.rodape__cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    margin: 7% 0 0 0;
+}
+
+.rodape__cadastro__email {
+    font-size: var(--font-size1);
+    color: var(--primary-color);
+    width: 60%;
+    padding: 2% 3% 2% 1.75%;
+    border: 1px solid var(--color-email); 
+}
+
+.rodape__cadastro__botao {
+    font-size: var(--font-size1);
+    color: var(--background-color);
+    font-weight: var(--font-weight1);
+    padding: 2% 3%;
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+
+}
+
+.rodape__copyright {
+    font-size: var(--font-size1);
+    color: var(--color-copyright);
+    text-align: center;
+    margin: 7% 0 0 0;
 }
