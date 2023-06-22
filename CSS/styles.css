@@ -38,12 +38,12 @@
 .cabecalho__paginas {
     order: 2;
     display: flex;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .cabecalho__cadastro {
     order: 3;
-    gap: 12px;
+    gap: 0.75rem;
     display: flex;
     align-items: center;
 }
@@ -55,8 +55,8 @@
 .cabecalho__cadastro__cadastrar {
     background-color: var(--secondary-color);
     color: var(--background-color);
-    border-radius: 8px;
-    padding: 10px;
+    border-radius: 0.5rem;
+    padding: 0.625rem;
 }
 
 .coluna__secao__1 {
@@ -64,7 +64,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 1.5rem;
     padding: 5% 8%;
     /* border: solid red; */
 }
