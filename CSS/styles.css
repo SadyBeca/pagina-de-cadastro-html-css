@@ -23,8 +23,10 @@
    --font-size7: 2.25rem;
 }
 
-.body {
+body {
     box-sizing: border-box;
+    font-family: var(--font-family);
+    text-decoration: none;
 }
 
 .cabecalho {
