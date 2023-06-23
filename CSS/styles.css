@@ -36,15 +36,17 @@
     padding: 1% 8%;
     font-size: var(--font-size1);
     align-items: center;
-    text-decoration: none;
 
 }
 
 .cabecalho__paginas {
-    text-decoration: none;
+    /* text-decoration: none; */
     order: 2;
     display: flex;
     gap: 2rem;
+    border: solid red;
+    text-decoration: none;
+    color: var(--primary-color);
 }
 
 .cabecalho__cadastro {
