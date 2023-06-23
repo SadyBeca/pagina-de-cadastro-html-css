@@ -25,7 +25,6 @@
 
 .body {
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 .cabecalho {
@@ -37,10 +36,12 @@
     padding: 1% 8%;
     font-size: var(--font-size1);
     align-items: center;
+    text-decoration: none;
 
 }
 
 .cabecalho__paginas {
+    text-decoration: none;
     order: 2;
     display: flex;
     gap: 2rem;
