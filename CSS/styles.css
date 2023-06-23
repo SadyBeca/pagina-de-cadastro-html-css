@@ -44,7 +44,7 @@
     order: 2;
     display: flex;
     gap: 2rem;
-    border: solid red;
+    /* border: solid red; */
     text-decoration: none;
     color: var(--primary-color);
 }
