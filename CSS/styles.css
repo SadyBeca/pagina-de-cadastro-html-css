@@ -35,7 +35,7 @@ body {
     font-weight: var(--font-weight1);
     font-family: var(--font-family);
     justify-content: space-between;
-    padding: 1% 8%;
+    padding: 1% 5%;
     font-size: var(--font-size1);
     align-items: center;
 
@@ -178,6 +178,10 @@ body {
     color: var(--primary-color);
     font-size: var(--font-size3);
     margin: 1.25rem 0 4rem;
+}
+
+.temos_vagas_imagem {
+    width: auto;
 }
 
 .vagas__abertas {
