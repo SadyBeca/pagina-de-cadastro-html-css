@@ -12,7 +12,7 @@
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 
-![imagem-inicial-da-minha-página-de-cadastro](https://github.com/SadyBeca/pagina-de-cadastro-html-css/assets/134239560/28ed4af3-8746-4a92-877b-1e51856a8d6c#vitrinedev)
+
 
 
 
