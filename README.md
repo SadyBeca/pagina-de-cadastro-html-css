@@ -14,5 +14,5 @@
 
 ![imagem-inicial-da-minha-página-de-cadastro](https://github.com/SadyBeca/pagina-de-cadastro-html-css/assets/134239560/28ed4af3-8746-4a92-877b-1e51856a8d6c#vitrinedev)
 
-![Vídeo sem título ‐ Feito com o Clipchamp (3)](https://github.com/SadyBeca/pagina-de-cadastro-html-css/assets/134239560/a8445952-2bd6-4767-b00c-38f429970345#vitrinedev)
+![Vídeo sem título ‐ Feito com o Clipchamp (3)](https://github.com/SadyBeca/pagina-de-cadastro-html-css/assets/134239560/a8445952-2bd6-4767-b00c-38f429970345)
 
